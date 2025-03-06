@@ -1,0 +1,7 @@
+name: IaC AKS
+on: workflow_dispatch
+jobs:
+  printing-something:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "fuck the world... :)"
